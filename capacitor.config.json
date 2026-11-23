@@ -1,0 +1,6 @@
+{
+  "appId": "com.personal.modularappbuilder",
+  "appName": "اپلیکیشن‌ساز ماژولار",
+  "webDir": "dist",
+  "server": { "androidScheme": "https" }
+}
