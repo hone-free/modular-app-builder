@@ -1,10 +1,10 @@
 const KEY = 'mab.modular.project.v1';
 const starter = () => ({
-  id: crypto.randomUUID(), name: 'پروژه من', updatedAt: new Date().toISOString(),
-  nodes: [
-    { id: crypto.randomUUID(), type: 'text', title: 'متن خوش‌آمدگویی', x: 100, y: 95, config: { text: 'به اپلیکیشن من خوش آمدید' } },
-    { id: crypto.randomUUID(), type: 'button', title: 'دکمه شروع', x: 390, y: 225, config: { label: 'شروع' } }
-  ], edges: []
+  id: crypto.randomUUID(),
+  name: 'پروژه من',
+  updatedAt: new Date().toISOString(),
+  nodes: [],
+  edges: []
 });
 export class ProjectStore {
   load() {
